@@ -118,6 +118,11 @@ footer{
   text-align: center;
 }
 
+.greeting{
+  text-align: center;
+  font-size: 35px;
+}
+
 @media (max-width: 600px) {
   .column {
     flex: 100%;
@@ -156,17 +161,14 @@ footer{
     gap:70px;
     font-size: 40px;
   }
-
-.img-container{
+  .img-container{
   flex-direction: column;
-}
-
-.video-container{
+  }
+  .video-container{
   padding: 10px;
   gap: 5px;
 }
-
-  video{
+video{
     max-width: 90%;
   }
 }
